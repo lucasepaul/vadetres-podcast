@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Va de Tres - Podcast de NBA y Liga Nacional Argentina</title>
+    <meta name="description" content="Tu podcast de Basquetbol NBA y Liga Nacional Argentina con Juan Ignacio Falagan y Lucas Paul">
+    
+    <!-- Favicons -->
+    <link rel="icon" href="img/favicon.ico">
+    <link rel="icon" type="image/png" sizes="32x32" href="img/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="img/favicon-16x16.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="img/apple-touch-icon.png">
+    <link rel="manifest" href="site.webmanifest">
+    
+    <!-- Font Awesome para iconos -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- CSS principal -->
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="logo-container">
+                <img src="img/logo.png" alt="Va de Tres Logo" class="logo">
+                <div class="site-title">
+                    <h1>Va de Tres</h1>
+                    <p>NBA y Liga Nacional Argentina</p>
+                </div>
+            </div>
+            
+            <nav class="main-nav">
+                <button class="menu-toggle" id="menuToggle" aria-label="Menú principal">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+                
+                <ul class="nav-links" id="navLinks">
+                    <li><a href="#inicio" class="active">Inicio</a></li>
+                    <li><a href="#episodios">Episodios</a></li>
+                    <li><a href="#envivo">En Vivo</a></li>
+                    <li><a href="#nosotros">Nosotros</a></li>
+                    <li><a href="#contacto">Contacto</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="inicio">
+        <div class="container">
+            <div class="hero-content">
+                <img src="img/logo.png" alt="Va de Tres Logo" class="hero-logo">
+                <h2>Tu podcast de Basquetbol</h2>
+                <h1>NBA y Liga Nacional Argentina</h1>
+                <p>Con Juan Ignacio Falagan y Lucas Paul</p>
+                <div class="hero-buttons">
+                    <a href="#episodios" class="btn btn-primary">Ver Episodios</a>
+                    <a href="https://kick.com/vade3podcast" target="_blank" class="btn btn-secondary">
+                        <i class="fas fa-play-circle"></i> Ver en KICK
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Live Banner -->
+    <section class="live-banner" id="live-banner">
+        <div class="container">
+            <div class="live-badge">
+                <span class="pulse"></span> EN VIVO
+            </div>
+            <div class="live-info">
+                <h3>¡Estamos en vivo ahora!</h3>
+                <p>No te pierdas nuestro análisis de los últimos partidos</p>
+            </div>
+            <a href="https://kick.com/vade3podcast" target="_blank" class="btn btn-primary">Ver ahora</a>
+        </div>
+    </section>
+
+    <!-- Episodios Section -->
+    <section class="episodes-section" id="episodios">
+        <div class="container">
+            <div class="section-header">
+                <h2>Últimos Episodios</h2>
+                <a href="#" class="view-all">Ver todos <i class="fas fa-arrow-right"></i></a>
+            </div>
+            
+            <div class="episodes-grid">
+                <!-- Episodio 1 (Episodio 11) -->
+                <div class="episode-card">
+                    <div class="episode-thumbnail">
+                        <img src="img/episode-1.png" alt="Va de Tres #11">
+                        <div class="episode-duration">60 min</div>
+                        <div class="play-button">
+                            <i class="fas fa-play"></i>
+                        </div>
+                    </div>
+                    <div class="episode-info">
+                        <h3>Va de Tres #11 - F%&K BOSTON!!!</h3>
+                        <p>Análisis de los playoffs de la NBA y la rivalidad con Boston Celtics</p>
+                        <div class="episode-meta">
+                            <span><i class="far fa-calendar-alt"></i> 8 de mayo, 2025</span>
+                        </div>
+                        <a href="https://www.youtube.com/watch?v=4P5bj_MdPrI" target="_blank" class="btn btn-sm">Ver episodio</a>
+                    </div>
+                </div>
+                
+                <!-- Episodio 2 (Episodio 10) -->
+                <div class="episode-card">
+                    <div class="episode-thumbnail">
+                        <img src="img/episode-2.png" alt="Va de Tres #10">
+                        <div class="episode-duration">58 min</div>
+                        <div class="play-button">
+                            <i class="fas fa-play"></i>
+                        </div>
+                    </div>
+                    <div class="episode-info">
+                        <h3>Va de Tres #10 - Playoffs el rojo vivo!!!</h3>
+                        <p>Análisis de los playoffs de la NBA y la final de la Liga Nacional</p>
+                        <div class="episode-meta">
+                            <span><i class="far fa-calendar-alt"></i> 6 de mayo, 2025</span>
+                        </div>
+                        <a href="https://www.youtube.com/watch?v=E-RqK-JEVwQ" target="_blank" class="btn btn-sm">Ver episodio</a>
+                    </div>
+                </div>
+                
+                <!-- Episodio 3 (Episodio 9) -->
+                <div class="episode-card">
+                    <div class="episode-thumbnail">
+                        <img src="img/episode-3.png" alt="Va de Tres #9">
+                        <div class="episode-duration">55 min</div>
+                        <div class="play-button">
+                            <i class="fas fa-play"></i>
+                        </div>
+                    </div>
+                    <div class="episode-info">
+                        <h3>Va de Tres #9 - Mas Playoffs y el cierre del LNB</h3>
+                        <p>Análisis del séptimo juego y la definición de la Liga Nacional</p>
+                        <div class="episode-meta">
+                            <span><i class="far fa-calendar-alt"></i> 1 de mayo, 2025</span>
+                        </div>
+                        <a href="https://www.youtube.com/watch?v=6gYW5wdZWtg" target="_blank" class="btn btn-sm">Ver episodio</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Schedule Banner -->
+    <section class="schedule-banner" id="envivo">
+        <div class="container">
+            <div class="schedule-content">
+                <div class="schedule-icon">
+                    <i class="far fa-calendar-alt"></i>
+                </div>
+                <div class="schedule-info">
+                    <h3>Transmitimos en vivo</h3>
+                    <p>Todos los martes y jueves a las 21:00hs</p>
+                </div>
+                <a href="https://kick.com/vade3podcast" target="_blank" class="btn btn-outline">Ver en KICK</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about-section" id="nosotros">
+        <div class="container">
+            <div class="section-header">
+                <h2>Sobre Nosotros</h2>
+            </div>
+            
+            <div class="about-content">
+                <div class="about-image">
+                    <img src="img/team.jpeg" alt="Juan Ignacio Falagan y Lucas Paul" class="about-team">
+                </div>
+                <div class="about-text">
+                    <p>
+                        Va de Tres es tu podcast de baloncesto dedicado a cubrir tanto la NBA como la Liga Nacional Argentina.
+                        Traemos análisis, entrevistas y debates sobre todo lo relacionado con el mundo del básquet.
+                    </p>
+                    <p>
+                        Transmitimos en vivo todos los martes y jueves a las 21:00hs, donde interactuamos con nuestra comunidad y
+                        discutimos los temas más relevantes de la semana.
+                    </p>
+                    
+                    <div class="team-members">
+                        <h3>Nuestro equipo</h3>
+                        <ul>
+                            <li><strong>Juan Ignacio Falagan</strong> - Conductor</li>
+                            <li><strong>Lucas Paul</strong> - Conductor</li>
+                            <li><strong>Paola Alvarez</strong> - Community Manager</li>
+                            <li><strong>Tomas Balbuena</strong> - Productor</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Social Media Section -->
+    <section class="social-section">
+        <div class="container">
+            <h2>Síguenos en redes sociales</h2>
+            
+            <div class="social-grid">
+                <a href="https://www.instagram.com/vadetres.podcast" target="_blank" class="social-card instagram">
+                    <i class="fab fa-instagram"></i>
+                    <span>Instagram</span>
+                </a>
+                <a href="https://kick.com/vade3podcast" target="_blank" class="social-card kick">
+                    <i class="fas fa-play-circle"></i>
+                    <span>KICK</span>
+                </a>
+                <a href="https://www.youtube.com/@VadeTresPodcast" target="_blank" class="social-card youtube">
+                    <i class="fab fa-youtube"></i>
+                    <span>YouTube</span>
+                </a>
+                <a href="https://www.tiktok.com/@vadetres.podcast" target="_blank" class="social-card tiktok">
+                    <i class="fab fa-tiktok"></i>
+                    <span>TikTok</span>
+                </a>
+                <a href="https://x.com/Vadetrespodcast" target="_blank" class="social-card twitter">
+                    <i class="fab fa-twitter"></i>
+                    <span>Twitter</span>
+                </a>
+                <a href="https://discord.com/invite/hsVff4be86" target="_blank" class="social-card discord">
+                    <i class="fab fa-discord"></i>
+                    <span>Discord</span>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact-section" id="contacto">
+        <div class="container">
+            <div class="section-header">
+                <h2>Contacto</h2>
+            </div>
+            
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3>¿Tienes alguna pregunta o sugerencia?</h3>
+                    <p>No dudes en ponerte en contacto con nosotros a través de nuestras redes sociales o enviándonos un mensaje.</p>
+                    
+                    <div class="contact-links">
+                        <a href="https://discord.com/invite/hsVff4be86" target="_blank" class="contact-link">
+                            <i class="fab fa-discord"></i> Únete a nuestro Discord
+                        </a>
+                        <a href="https://www.instagram.com/vadetres.podcast" target="_blank" class="contact-link">
+                            <i class="fab fa-instagram"></i> Envíanos un DM en Instagram
+                        </a>
+                    </div>
+                </div>
+                
+                <div class="contact-form">
+                    <form id="contactForm" action="https://formspree.io/f/xleqgwkj" method="POST">
+                        <div class="form-group">
+                            <label for="name">Nombre</label>
+                            <input type="text" id="name" name="nombre" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="_replyto" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Mensaje</label>
+                            <textarea id="message" name="mensaje" rows="5" required></textarea>
+                            <input type="hidden" name="_subject" value="Nuevo mensaje del sitio web Va de Tres">
+                            <input type="text" name="_gotcha" style="display:none">
+                        </div>
+                        <button type="submit" class="btn btn-primary">Enviar mensaje</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <img src="img/logo.png" alt="Va de Tres Logo">
+                    <div class="footer-title">
+                        <h3>Va de Tres</h3>
+                        <p>Tu podcast de Basquetbol NBA y Liga Nacional Argentina</p>
+                    </div>
+                </div>
+                
+                <div class="footer-links">
+                    <div class="footer-section">
+                        <h4>Enlaces rápidos</h4>
+                        <ul>
+                            <li><a href="#inicio">Inicio</a></li>
+                            <li><a href="#episodios">Episodios</a></li>
+                            <li><a href="#envivo">En Vivo</a></li>
+                            <li><a href="#nosotros">Nosotros</a></li>
+                            <li><a href="#contacto">Contacto</a></li>
+                        </ul>
+                    </div>
+                    
+                    <div class="footer-section">
+                        <h4>Síguenos</h4>
+                        <div class="footer-social">
+                            <a href="https://www.instagram.com/vadetres.podcast" target="_blank"><i class="fab fa-instagram"></i></a>
+                            <a href="https://kick.com/vade3podcast" target="_blank"><i class="fas fa-play-circle"></i></a>
+                            <a href="https://www.youtube.com/@VadeTresPodcast" target="_blank"><i class="fab fa-youtube"></i></a>
+                            <a href="https://www.tiktok.com/@vadetres.podcast" target="_blank"><i class="fab fa-tiktok"></i></a>
+                            <a href="https://x.com/Vadetrespodcast" target="_blank"><i class="fab fa-twitter"></i></a>
+                            <a href="https://discord.com/invite/hsVff4be86" target="_blank"><i class="fab fa-discord"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2024 Va de Tres. Todos los derechos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="js/main.js"></script>
+</body>
+</html>
