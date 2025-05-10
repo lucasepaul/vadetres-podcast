@@ -1,6 +1,6 @@
 # Va de Tres Podcast - Sitio Web Oficial
 
-![Va de Tres Logo](img/Logo.png)
+![Va de Tres Logo](img/Logo)
 
 ## 📝 Descripción
 
