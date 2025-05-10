@@ -1,6 +1,6 @@
 # Va de Tres Podcast - Sitio Web Oficial
 
-<img src="vadetres-landing/img/logo.png" alt="Va de Tres Logo" width="200">
+<img src="vadetres-landing/img/Logo.png" alt="Va de Tres Logo" width="200">
 
 ## 📝 Descripción
 
