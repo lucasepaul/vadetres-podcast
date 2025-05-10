@@ -1,6 +1,6 @@
 # Va de Tres Podcast - Sitio Web Oficial
 
-![Va de Tres Logo](img/Logo)
+<img src="vadetres-landing/img/logo.png" alt="Va de Tres Logo" width="200">
 
 ## 📝 Descripción
 
@@ -29,4 +29,4 @@ Sitio web oficial para el podcast "Va de Tres", dedicado al baloncesto NBA y la 
 
 1. Clona este repositorio:
    ```bash
-   git clone https://github.com/tu-usuario/vadetres-podcast.git
+   git clone https://github.com/lucasepaul/vadetres-podcast.git
